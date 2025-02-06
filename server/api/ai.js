@@ -1,7 +1,7 @@
 const { InferenceApi } = require('@huggingface/inference');
 
 const inference = new InferenceApi({
-  token: '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',
+  token: '',
 });
 
 const generateAdContent = async (businessName, businessType, targetAudience, marketingGoal, uniqueSellingPoints) => {
